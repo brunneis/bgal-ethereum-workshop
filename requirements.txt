@@ -1,0 +1,4 @@
+web3
+easysolc
+easyweb3
+python-dotenv
