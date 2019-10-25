@@ -1,3 +1,4 @@
 #!/bin/bash
+source env.sh
 brew install solidity
-cp /usr/local/bin/solc solc
+sudo cp /usr/local/bin/solc solc

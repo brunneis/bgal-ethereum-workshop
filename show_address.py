@@ -13,4 +13,4 @@ web3 = EasyWeb3('wallet.json', http_provider=INFURA_ENDPOINT)
 address = web3.account.address
 balance = web3.eth.getBalance(address)
 print(f'Address: {address}')
-print(f'Balance: {balance / 10e18} ETH')
+print(f'Balance: {balance / 10e17} ETH')
